@@ -27,7 +27,8 @@
 
 Anaconda allows you to maintain a collection of siloed Python Environments, each with their own install of specific python version and added libraries.  This is useful if you're working on multiple projects that each might need different versions of Python or some particular library. 
 
-Some commands related to enviroments:
+Some commands related to environments:
+
 - `conda create -n webdev python=3.9`
   - create a new environment named `webdev` based on Python version 3.9
 - `conda env list`
@@ -37,4 +38,8 @@ Some commands related to enviroments:
 - `conda list` 
   - lists all the packages in the active Anaconda environment. 
 
+## Visual Studio Code
 
+We'll use VS Code as our IDE for these examples.  
+
+You'll need to make sure VS Code is using the correct interpreter from the conda environment you've created for these examples.  One way to do this is to press `cmd-shift-p` (on mac) to open the VS Code command palette, search for `python select interpreter`, and choose the correct conda environment. 
