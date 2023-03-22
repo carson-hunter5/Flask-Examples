@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "aa559740-8679-4b18-bc77-5084c64da242",
+    "colId": "74839d79-9a93-43a5-a932-543443dfada8",
+    "containerId": "",
+    "name": "Base Route Test",
+    "url": "{{server}}:{{port}}/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-03-22T16:12:36.413Z",
+    "modified": "2023-03-22T16:16:36.926Z",
+    "headers": [],
+    "params": [],
+    "tests": [
+      {
+        "type": "res-body",
+        "custom": "",
+        "action": "equal",
+        "value": "<h1>Hello CS 3200</h1>"
+      }
+    ]
+  }
+]
