@@ -17,10 +17,9 @@ Example 3 contains the same routes as Example 2.  The difference is the inclusio
 - Open the `testRoutes.http` file
 - Above each test, you should see a clickable `Send Request` message
 
-
-
 ## Routes
-
+- `GET /`
+  - returns a Hello World message
 - `GET /bigHello`
   - returns a greeting to the user
 - `GET /users/<idNumber>`
