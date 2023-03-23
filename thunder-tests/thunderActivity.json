@@ -1,16 +1,1 @@
-[
-  {
-    "_id": "e043c6ea-ee0d-4739-b2f8-4f7434b7d9f1",
-    "colId": "history",
-    "containerId": "",
-    "name": "http://127.0.0.1:4000",
-    "url": "http://127.0.0.1:4000",
-    "method": "GET",
-    "sortNum": 0,
-    "created": "2023-03-23T12:45:43.139Z",
-    "modified": "2023-03-23T12:45:43.139Z",
-    "headers": [],
-    "params": [],
-    "tests": []
-  }
-]
+[]

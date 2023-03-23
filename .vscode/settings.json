@@ -3,5 +3,6 @@
         "microframework",
         "mlenv",
         "webdev"
-    ]
+    ],
+    "thunder-client.saveToWorkspace": true
 }
