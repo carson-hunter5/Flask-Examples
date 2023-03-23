@@ -28,8 +28,3 @@ Example 3 contains the same routes as Example 2.  The difference is the inclusio
   - notice the variable also appears as a parameter to the function `handle_user_with_id`
   - `idNumber` is accessed with curly braces (`{}`) in the handler
 
-## Prerequisites
-- Flask must be installed
-
-## To Run:
-`python app.py`
