@@ -1,0 +1,17 @@
+version: "3.9"
+
+# creating the services that are part of our
+# application stack
+services: 
+    my-api-service:
+        # tells docker compose to use the Dockerfile 
+        # in the_app/ folder
+        build: the_app/
+
+        # mount the application src folder inside the container
+        volumes: 
+          - ./the_app:/usr/src/app
+
+        # map host port 9000 to container port 4000
+        ports: 
+            - 9000:4000

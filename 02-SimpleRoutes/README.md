@@ -13,4 +13,4 @@ Example 2 contains a few more routes.
 - Flask must be installed
 
 ## To Run:
-`python app.py`
+- `python simpleRoutes.py`

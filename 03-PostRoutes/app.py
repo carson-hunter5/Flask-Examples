@@ -1,7 +1,7 @@
 # 02-SimpleRoutes Example
 
 # import the Flask framework
-from flask import Flask, request
+from flask import Flask, request, render_template
 
 # create a flask object
 app = Flask(__name__)
@@ -29,11 +29,15 @@ def big_hello_world():
 def handle_user_with_id(idNumber):
     return f'<h2>You asked for {idNumber} id.'
 
+@app.route("/userForm", methods=['GET'])
+def get_user_form():
+    return render_template('postHome.html')
+
 # Route for POSTing to /products 
-@app.route("/products", methods=['POST'])
+@app.route("/userInfo", methods=['POST'])
 def handle_new_product():
     print(request.json)
-    return "<h1>Success</h1>"
+    return {"message":"Success"}
 
 # If this file is being run directly, then run the application 
 # via the app object. 
