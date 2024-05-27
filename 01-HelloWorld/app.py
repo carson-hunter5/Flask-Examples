@@ -18,5 +18,5 @@ if __name__ == '__main__':
     # `debug = True` -> runs the app in debug mode 
     #    which allows for hot reloading of code(for hot reloading) 
     # `port = 4000` -> indicates what network port this app will be
-    #    bound to... in this case, port 4000. 
-    app.run(debug = True, port = 4000)
+    #    bound to... in this case, port 2633. 
+    app.run(debug = True, port = 2633)

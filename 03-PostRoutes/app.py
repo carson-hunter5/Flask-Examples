@@ -33,7 +33,7 @@ def handle_user_with_id(idNumber):
 def get_user_form():
     return render_template('postHome.html')
 
-# Route for POSTing to /products 
+# Route for POSTing to /userInfo
 @app.route("/userInfo", methods=['POST'])
 def handle_new_product():
     print(request.json)
